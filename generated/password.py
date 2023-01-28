@@ -1,16 +1,12 @@
 import random
-
-print('-=-' * 20)
+print("-*-" * 10)
 print("WELCOME SIMPLE PASSWORD GENERATED")
-print('-=-' * 20)
-
+print("-*-" * 10)
 
 lower_case = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.lower()
 upper_case = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.upper()
-num = '0123456789'
-symbol = '@$&#!^*%'
-
-result = (lower_case + upper_case + num + symbol)
+all = '0123456789@$&#!^*%'
+result = (lower_case + upper_case + all)
 
 length = 20
 password = ''.join(random.sample(result, length))
