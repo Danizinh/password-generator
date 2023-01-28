@@ -10,6 +10,5 @@ result = (lower_case + upper_case + all)
 
 length = 20
 password = ''.join(random.sample(result, length))
-print(f'RANDOM PASSWORD GENERATED is', {password})
-print('-=-' * 20)
-print('SEE YOU NEXT TIME')
+print(f'RANDOM PASSWORD GENERATED is', password)
+print("-*-" * 10)
